@@ -2,9 +2,7 @@
 
 /*
     Paleta de cores
-    rgb(103,142,18)
-    rgb(75,13,9)
-    rgb(219,145,54)
+    
 */
 
 *{
@@ -15,7 +13,7 @@
 }
 
 body , html{
-    background-image: linear-gradient(rgb(50, 13, 9),rgb(140, 13, 9));
+    background-image: linear-gradient(#F0BCBD,#ac494b);
     height: 100vh;
     width: 100vw;
 }
@@ -40,10 +38,10 @@ section#login{
 
 section#login > div#img{
     display: block;
-    background: rgb(75,13,9) url(../imagens/bola_login.jpg);
+    background: rgb(75,13,9) url(../imagens/imagem-login.jpg);
     height: 150px;
     background-size: cover;
-    background-position: center bottom;
+    background-position: left 10%;
 }
 
 section#login > div#form{
