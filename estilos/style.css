@@ -2,7 +2,7 @@
 
 /*
     Paleta de cores
-    
+    #E2C3A4
 */
 
 *{
@@ -13,7 +13,7 @@
 }
 
 body , html{
-    background-image: linear-gradient(#F0BCBD,#ac494b);
+    background-image: linear-gradient(#E2C3A4,#9c6f42);
     height: 100vh;
     width: 100vw;
 }
@@ -38,10 +38,10 @@ section#login{
 
 section#login > div#img{
     display: block;
-    background: rgb(75,13,9) url(../imagens/imagem-login.jpg);
+    background: rgb(75,13,9) url(../imagens/imagem-login2.jpg);
     height: 150px;
     background-size: cover;
-    background-position: left 10%;
+    background-position: 0% 60%;
 }
 
 section#login > div#form{
